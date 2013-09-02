@@ -1,6 +1,6 @@
 package
 {
-
+	/**IF YOU CAN READ THIS ON GITHUB, GIT IS AWESOME!**/
 	import flash.geom.Rectangle;
 	
 	import citrus.core.starling.StarlingCitrusEngine;
@@ -12,7 +12,7 @@ package
 	{
 		public function CrowdSurfer2()
 		{
-			super();
+			super(); 
 			
 			//force landscape
 			trace(stage.stageWidth, stage.stageHeight, stage.fullScreenWidth, stage.fullScreenHeight);

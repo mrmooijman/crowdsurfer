@@ -23,8 +23,5 @@ package
 			var testing:String = "test";
 		}
 		
-		
-		
-	
 	}
 }

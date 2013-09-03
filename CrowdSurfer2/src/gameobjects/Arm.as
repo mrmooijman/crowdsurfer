@@ -82,7 +82,11 @@ package gameobjects
 			
 			super.update(timeDelta);
 			
-			targetY = int(Math.sin(life++ * frequency) * amplitude - offset.y);	
+			if(offset.y == 0)
+				targetY = int(Math.sin(life++ * frequency) * amplitude - offset.y);	
+			else
+				targetY = -offset.y;
+			
 			offset.y = int(offset.y * 90)/100;	
 			joint.anchor2.y += int(((_baseY + targetY) - joint.anchor2.y)*50)/100;
 
